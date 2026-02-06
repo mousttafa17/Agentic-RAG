@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / IDE files
+.vscode/
+*.code-workspace
+.cursor/   # if Cursor IDE creates a folder
+
+# Data / outputs
+*.csv
+*.tsv
+*.sqlite
+*.db
+*.h5
+*.pt
+*.pkl
+*.npy
+*.npz
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore local Ollama or LLaMA model cache (if any)
+.llama_cache/
